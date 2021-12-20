@@ -4,10 +4,16 @@ const User = require("../models/userModel");
 const sendToken = require("../utils/jwtToken");
 const sendEmail = require("../utils/sendEmail");
 const crypto = require('crypto');
+const cloudinary = require("cloudinary");
 
 // To register a user
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
 
+    const myCloud = await cloudinary.v2.uploader.upload(req.body.avatar, {
+        folder: "avatars",
+        width: 150,
+        crop: "scale",
+    });
     const { name, email, password } = req.body;
 
     const user = await User.create({
@@ -15,10 +21,9 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
         email,
         password,
 
-        //Cloudinary will be updated later
         avatar: {
-            public_id: "This is a sample id",
-            url: "This is a sample url ... aise hi time pass",
+            public_id: myCloud.public_id,
+            url: myCloud.secure_url,
         },
     });
     sendToken(user, 201, res);
@@ -125,7 +130,7 @@ exports.resetPassword = catchAsyncErrors(async (req, res, next) => {
         resetPasswordToken,
         resetPasswordExpire: { $gt: Date.now() },
     });
-    
+
     //If the user isn't found
     if (!user) {
         return next(new ErrorHandler("Reset Password Token is invalid or has been expired", 400));
