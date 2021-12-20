@@ -1,4 +1,3 @@
-// import { Rating } from "@material-ui/lab";
 import React from "react";
 import profilePng from "../../images/Profile.png";
 import ReactStars from 'react-rating-stars-component'
