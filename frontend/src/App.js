@@ -91,73 +91,7 @@ function App() {
         {stripeApiKey && isAuthenticated && (
           <Route exact path="/process/payment" element={<Payment />} />
         )}
-        {/*<ProtectedRoute exact path="/order/:id" component={OrderDetails} />
-
-        <ProtectedRoute
-          isAdmin={true}
-          exact
-          path="/admin/dashboard"
-          component={Dashboard}
-        />
-        <ProtectedRoute
-          exact
-          path="/admin/products"
-          isAdmin={true}
-          component={ProductList}
-        />
-        <ProtectedRoute
-          exact
-          path="/admin/product"
-          isAdmin={true}
-          component={NewProduct}
-        />
-
-        <ProtectedRoute
-          exact
-          path="/admin/product/:id"
-          isAdmin={true}
-          component={UpdateProduct}
-        />
-        <ProtectedRoute
-          exact
-          path="/admin/orders"
-          isAdmin={true}
-          component={OrderList}
-        />
-
-        <ProtectedRoute
-          exact
-          path="/admin/order/:id"
-          isAdmin={true}
-          component={ProcessOrder}
-        />
-        <ProtectedRoute
-          exact
-          path="/admin/users"
-          isAdmin={true}
-          component={UsersList}
-        />
-
-        <ProtectedRoute
-          exact
-          path="/admin/user/:id"
-          isAdmin={true}
-          component={UpdateUser}
-        />
-
-        <ProtectedRoute
-          exact
-          path="/admin/reviews"
-          isAdmin={true}
-          component={ProductReviews}
-        />
-
-        <Route
-          component={
-            window.location.pathname === "/process/payment" ? null : NotFound
-          }
-        /> */}
-
+    
 
       </Routes>
       <Footer />
