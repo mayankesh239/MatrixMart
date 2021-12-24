@@ -37,7 +37,7 @@ const Shipping = () => {
         dispatch(
             saveShippingInfo({ address, city, state, country, pinCode, phoneNo })
         );
-        navigate("/order/confirm");
+        navigate("/orders/confirm");
     };
 
     return (

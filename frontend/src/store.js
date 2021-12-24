@@ -4,30 +4,17 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import {
     productDetailsReducer,
     productsReducer,
-    // productReducer,
-    // productReviewsReducer,
-    // reviewReducer,
-    // newProductReducer,
-    // newReviewReducer,
 } from "./reducers/productReducer";
 
 import {
     profileReducer,
     userReducer,
     forgotPasswordReducer,
-    // userDetailsReducer,
-    // allUsersReducer,
 } from "./reducers/userReducer";
 
 import { cartReducer } from "./reducers/cartReducer";
 
-// import {
-//     allOrdersReducer,
-//     myOrdersReducer,
-//     newOrderReducer,
-//     orderDetailsReducer,
-//     orderReducer,
-//   } from "./reducers/orderReducer";
+import { myOrdersReducer, newOrderReducer, orderDetailsReducer } from "./reducers/orderReducer"
 
 const reducer = combineReducers({
     products: productsReducer,
@@ -36,18 +23,9 @@ const reducer = combineReducers({
     profile: profileReducer,
     forgotPassword: forgotPasswordReducer,
     cart: cartReducer,
-    // newOrder: newOrderReducer,
-    // myOrders: myOrdersReducer,
-    // orderDetails: orderDetailsReducer,
-    // newReview: newReviewReducer,
-    // newProduct: newProductReducer,
-    // product: productReducer,
-    // allOrders: allOrdersReducer,
-    // order: orderReducer,
-    // allUsers: allUsersReducer,
-    // userDetails: userDetailsReducer,
-    // productReviews: productReviewsReducer,
-    // review: reviewReducer,  
+    newOrder: newOrderReducer,
+    myOrders: myOrdersReducer,
+    orderDetails: orderDetailsReducer,
 });
 
 
