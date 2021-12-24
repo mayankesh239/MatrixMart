@@ -7,7 +7,7 @@ import Loader from "../layout/Loader/Loader.js";
 import { clearErrors, getProduct } from '../../actions/productAction.js';
 import { useSelector, useDispatch } from 'react-redux';
 import { useAlert } from 'react-alert'
-
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
 
@@ -34,8 +34,35 @@ const Home = () => {
 
 
                     <div className="banner">
-                        <p>WELCOME TO MATRIX MART</p>
-                        <h1>TIME TO BE SHOPAHOLIC</h1>
+
+
+                        <p> <Typewriter
+
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("WELCOME TO MATRIX MART")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("TIME TO BE SHOPAHOLIC")
+                                    .start();
+                            }}
+                        /></p>
+                        <br />
+                        <div id="animation-container1">
+                            <div>
+                                BUY
+                            </div>
+                            <div id="flip">
+                                <div><div>AMAZING</div></div>
+                                <div><div>AFFORDABLE</div></div>
+                                <div><div>QUALITY</div></div>
+                            </div>
+                            <div>
+                                PRODUCTS!
+                            </div>
+                        </div>
+
+                        {/* <h1>TIME TO BE SHOPAHOLIC</h1> */}
 
                         <a href="#container">
                             <button>
@@ -44,6 +71,8 @@ const Home = () => {
                         </a>
 
                     </div>
+
+
 
 
                     <h2 className="homeHeading">FEATURED PRODUCTS</h2>

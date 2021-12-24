@@ -7,7 +7,8 @@ import logo from "../../../images/logo.jpeg";
 const options = {
     
     // for the documentation of overlay-navbar refer https://www.npmjs.com/package/overlay-navbar
-    burgerColorHover: "#eb4034",  
+    burgerColorHover: "white",  
+    burgerColor: "white",  
 
     logo,
     logoWidth: "20vmax",

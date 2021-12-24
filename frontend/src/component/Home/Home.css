@@ -1,6 +1,6 @@
 .banner {
-  background-image: url("../../images/cover.jpg");
-  background-position: center;
+  background-image: url("../../images/home.jpg");
+  background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vmin;
@@ -13,17 +13,18 @@
 }
 
 .banner>h1 {
-  margin: 5vmax;
-
+  
   font: 600 2.5vmax "Roboto";
 }
 
 .banner>p {
-  font: 300 1.4vmax "Roboto";
+  margin: 5vmax;
+  font: 300 2.2vmax "Roboto";
 }
 
 .banner>a>button {
   margin-bottom: 5vmax;
+  margin-right: 2vw;
   cursor: pointer;
   background-color: white;
   border: 1px solid white;
@@ -51,6 +52,73 @@
   max-width: 100%;
 }
 
+
+#animation-container1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font: 600 2.5vmax "Roboto";
+  width: 100%;
+  bottom: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+  margin-bottom: 2%;
+}
+
+#flip {
+  height: 50px;
+  overflow: hidden;
+}
+#flip>div{
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+#flip>div>div {
+  color: #fff;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 6s linear infinite;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+
+  5% {
+    margin-top: -180px;
+  }
+
+  33% {
+    margin-top: -180px;
+  }
+
+  38% {
+    margin-top: -90px;
+  }
+
+  66% {
+    margin-top: -90px;
+  }
+
+  71% {
+    margin-top: 0px;
+  }
+
+  99.99% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: -270px;
+  }
+}
+
 .homeHeading {
   text-align: center;
   font-family: Roboto;
@@ -69,7 +137,6 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
-  /* padding-top: 20%; */
 }
 
 .productCard {

@@ -2,16 +2,17 @@ import React, { Fragment, useRef, useState, useEffect } from "react";
 import "./LoginSignUp.css";
 import Loader from "../layout/Loader/Loader";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router";
+import { useNavigate, useParams } from "react-router";
 
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login, register } from "../../actions/userAction";
 import { useAlert } from "react-alert";
 
-const LoginSignUp = ({ location }) => {
+const LoginSignUp = () => {
     const dispatch = useDispatch();
     const alert = useAlert();
     let navigate = useNavigate();
+    let params = useParams();
     const { error, loading, isAuthenticated } = useSelector(
         (state) => state.user
     );
@@ -67,6 +68,7 @@ const LoginSignUp = ({ location }) => {
             setUser({ ...user, [e.target.name]: e.target.value });
         }
     };
+    // const redirect = params.redirect ? params.redirect.split("=")[1] : "/account";
 
     useEffect(() => {
         if (error) {
@@ -75,9 +77,9 @@ const LoginSignUp = ({ location }) => {
         }
 
         if (isAuthenticated) {
-            navigate(`/account`)
+            navigate("/account");
         }
-    }, [dispatch, error, alert, navigate, isAuthenticated]);
+    }, [dispatch, error, alert, isAuthenticated]);
 
     const switchTabs = (e, tab) => {
         if (tab === "login") {
