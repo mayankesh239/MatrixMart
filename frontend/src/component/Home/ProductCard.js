@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import ReactStars from 'react-rating-stars-component'
+import { Rating } from '@material-ui/lab'
 
 
 
 const ProductCard = ({ product }) => {
 
     const options = {
-        edit: false,
+        readOnly: true,
         color: "rgb(48, 48, 48)",
         activeColor: "tomato",
         value: product.ratings,
+        precision: 0.5,
         // size: window.innerWidth < 600 ? 25 : 50,
     }
 
@@ -19,7 +20,7 @@ const ProductCard = ({ product }) => {
             <img src={product.images[0].url} alt={product.name} />
             <p>{product.name}</p>
             <div>
-                <ReactStars {...options} />
+                <Rating {...options} />
                 <span>
                     ( {product.numOfReviews} Reviews)
                 </span>

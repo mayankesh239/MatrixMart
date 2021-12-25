@@ -23,7 +23,7 @@ const footer = () => {
                 <h4>Follow Us</h4>
                 <a href="http://instagram.com/mayankesh__">Instagram</a>
                 <a href="http://youtube.com/mayankesh">Youtube</a>
-                <a href="https://tinder.com/http://instagram.com/aiseKyaDekhRheHoBro">Tinder</a>
+                <a href="http://youtube.com/mayankesh">Facebook</a>
             </div>
         </footer>
     )
