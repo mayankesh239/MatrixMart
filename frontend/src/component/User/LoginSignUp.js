@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useState, useEffect } from "react";
 import "./LoginSignUp.css";
 import Loader from "../layout/Loader/Loader";
 import { Link } from "react-router-dom";
-import { useNavigate, useParams } from "react-router";
+import { useNavigate } from "react-router";
 
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login, register } from "../../actions/userAction";
@@ -12,7 +12,7 @@ const LoginSignUp = () => {
     const dispatch = useDispatch();
     const alert = useAlert();
     let navigate = useNavigate();
-    let params = useParams();
+
     const { error, loading, isAuthenticated } = useSelector(
         (state) => state.user
     );
@@ -79,7 +79,7 @@ const LoginSignUp = () => {
         if (isAuthenticated) {
             navigate("/account");
         }
-    }, [dispatch, error, alert, isAuthenticated]);
+    }, [dispatch, error, alert, isAuthenticated,navigate]);
 
     const switchTabs = (e, tab) => {
         if (tab === "login") {

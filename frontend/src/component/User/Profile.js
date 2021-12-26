@@ -13,7 +13,7 @@ const Profile = () => {
         if (!isAuthenticated) {//bug to be fixed
             navigate("/login");
         }
-    }, [isAuthenticated]);
+    }, [isAuthenticated,navigate]);
     return (
         <Fragment>
             {loading ? (

@@ -17,3 +17,8 @@
 #myBtn:hover {
     background-color: rgb(145, 0, 0);
 }
+
+/* Custom cursor will be made functional later */
+/* body {
+    cursor: url("../../src/images/cursor.png"), auto;
+  } */

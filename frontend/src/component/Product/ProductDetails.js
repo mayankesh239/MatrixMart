@@ -8,7 +8,7 @@ import {
   newReview,
 } from "../../actions/productAction";
 import { useParams } from "react-router";
-import ReactStars from 'react-rating-stars-component'
+// import ReactStars from 'react-rating-stars-component'
 import ReviewCard from "./ReviewCard.js";
 import Loader from "../layout/Loader/Loader";
 import { useAlert } from "react-alert";

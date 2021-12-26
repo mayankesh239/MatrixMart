@@ -29,7 +29,7 @@ const Products = () => {
 
     const [currentPage, setCurrentPage] = useState(1);
 
-    const [price, setPrice] = useState([0, 25000]);
+    const [price, setPrice] = useState([0, 3600000]);
 
     const [category, setCategory] = useState("");
 
@@ -94,7 +94,7 @@ const Products = () => {
                             valueLabelDisplay="auto"
                             aria-labelledby="range-slider"
                             min={0}
-                            max={25000}
+                            max={3600000}
                         />
 
                         <Typography>Categories</Typography>
