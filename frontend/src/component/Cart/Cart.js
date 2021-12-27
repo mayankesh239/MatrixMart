@@ -39,8 +39,7 @@ const Cart = () => {
         if (isAuthenticated) {
             navigate("/shipping");
         }
-        else
-        {
+        else {
             navigate("/login");
         }
     };

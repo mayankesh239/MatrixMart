@@ -2,7 +2,6 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-/* Custom cursor will be made functional later */
 
 body {
   cursor: url("./images/cursor.png"), auto;

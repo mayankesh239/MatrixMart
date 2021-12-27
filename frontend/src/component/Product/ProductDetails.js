@@ -38,7 +38,7 @@ const ProductDetails = () => {
   let { id } = useParams();
 
   const options = {
-    size: "large",
+    size: "small",
     value: product.ratings,
     readOnly: true,
     precision: 0.5,

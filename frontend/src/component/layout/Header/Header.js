@@ -8,7 +8,7 @@ const options = {
     
     // for the documentation of overlay-navbar refer https://www.npmjs.com/package/overlay-navbar
     burgerColorHover: "white",  
-    burgerColor: "white",  
+    burgerColor: "rgb(2, 46, 129)",  
 
     logo,
     logoWidth: "20vmax",
@@ -26,7 +26,7 @@ const options = {
     link1Size: "1.3vmax",
     link1Color: "rgba(35, 35, 35,0.8)",
     link1Url: "/",
-    link1ColorHover: "#eb4034",
+    link1ColorHover: "rgb(2, 46, 129)",
     link1Margin: "1vmax",
 
     link2Text: "PRODUCTS",
@@ -44,14 +44,14 @@ const options = {
     nav4justifyContent: "flex-start",
     
     profileIconUrl: "/login",
-    profileIconColorHover: "#eb4034",
+    profileIconColorHover: "rgb(2, 46, 129)",
     profileIconColor: "rgba(35, 35, 35,0.8)",
     
     searchIconColor: "rgba(35, 35, 35,0.8)",
-    searchIconColorHover: "#eb4034",
+    searchIconColorHover: "rgb(2, 46, 129)",
     
     cartIconColor: "rgba(35, 35, 35,0.8)",
-    cartIconColorHover: "#eb4034",
+    cartIconColorHover: "rgb(2, 46, 129)",
     cartIconMargin: "1vmax",
 };
 

@@ -20,6 +20,12 @@ const Sidebar = () => {
                     <DashboardIcon /> Dashboard
                 </p>
             </Link>
+            <Link to="/admin/users">
+                <p>
+                    <PeopleIcon />
+                    Users
+                </p>
+            </Link>
             <Link to="/admin/products">
                 <p>
                     <PostAddIcon /> All Products
@@ -34,12 +40,6 @@ const Sidebar = () => {
                 <p>
                     <ListAltIcon />
                     Orders
-                </p>
-            </Link>
-            <Link to="/admin/users">
-                <p>
-                    <PeopleIcon />
-                    Users
                 </p>
             </Link>
             <Link to="/admin/reviews">

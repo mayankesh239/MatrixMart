@@ -1,7 +1,7 @@
 .productReviewsContainer {
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(168, 253, 249), rgb(148, 168, 255));
     border-left: 1px solid rgba(0, 0, 0, 0.158);
     height: 100vh;
 }

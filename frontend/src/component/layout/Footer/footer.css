@@ -1,5 +1,4 @@
 footer {
-    margin-top: 10vmax;
     padding: 2vmax;
     background-color: rgb(34, 33, 33);
     color: white;
@@ -39,7 +38,7 @@ footer {
   .midFooter > h1 {
     font-size: 4vmax;
     font-family: "Roboto";
-    color: #eb4034;
+    color: rgb(0, 68, 196);
   }
   .midFooter > p {
     max-width: 60%;
@@ -69,5 +68,5 @@ footer {
   }
   
   .rightFooter > a:hover {
-    color: #eb4034;
+    color: rgb(2, 46, 129);
   }

@@ -46,7 +46,7 @@
 
 .paymentFormBtn {
     border: none;
-    background-color: tomato;
+    background-color: rgba(5, 59, 160, 0.822);
     color: white;
     font: 300 0.9vmax "Roboto";
     width: 100%;

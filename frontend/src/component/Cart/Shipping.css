@@ -63,7 +63,7 @@
   
   .shippingBtn {
     border: none;
-    background-color: tomato;
+    background-color: rgba(5, 59, 160, 0.822);
     color: white;
     font: 300 1vmax "Roboto";
     width: 100%;

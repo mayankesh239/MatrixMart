@@ -1,3 +1,47 @@
+.home-background {
+  background-image: linear-gradient(rgba(0, 255, 242, 0.123), rgba(0, 47, 255, 0.185));
+}
+
+
+.icon-bar {
+  width: 4.3vm;
+  position: fixed;
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 0.8vw;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 2.8vw;
+}
+
+.icon-bar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.login-option-home {
+  background-color: rgba(5, 59, 160, 0.822);
+  position: fixed;
+  color: white;
+  padding: 1vw;
+  font: 300 1.5vmax "Roboto";
+  margin-top: 2vw;
+  display: flex;
+  right: 0;
+  z-index: 1;
+
+}
+
+.login-option-home:hover {
+  background-color: rgba(0, 0, 0, 0.822);
+  color: rgba(255, 255, 255, 0.822);
+}
+
 .banner {
   background-image: url("../../images/home.jpg");
   background-position: fixed;
@@ -10,11 +54,6 @@
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.banner>h1 {
-  
-  font: 600 2.5vmax "Roboto";
 }
 
 .banner>p {
@@ -70,10 +109,12 @@
   height: 50px;
   overflow: hidden;
 }
-#flip>div{
+
+#flip>div {
   padding-left: 2vw;
   padding-right: 2vw;
 }
+
 #flip>div>div {
   color: #fff;
   height: 45px;
@@ -119,6 +160,16 @@
   }
 }
 
+.CarouselImageSection {
+  height: 30vw;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  box-shadow: 5px 10px #000000cb;
+
+}
+
 .homeHeading {
   text-align: center;
   font-family: Roboto;
@@ -128,6 +179,39 @@
   padding: 1vmax;
   margin: 5vmax auto;
   color: rgb(0, 0, 0, 0.7);
+}
+
+
+.searchBox1 {
+  justify-content: center;
+  margin-left: 12%;
+}
+
+.searchBox1>input[type="text"] {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+  background-color: white;
+  border: none;
+  color: rgba(0, 0, 0, 0.637);
+  padding: 1vmax 2vmax;
+  width: 80%;
+  outline: none;
+  border-radius: 0%;
+  font: 300 1.1vmax cursive;
+  box-sizing: border-box;
+  height: 8%;
+}
+
+.searchBox1>input[type="submit"] {
+  height: 8%;
+  border-radius: 0%;
+  background-color: rgb(2, 46, 129);
+  border: none;
+  padding: 1vmax;
+  width: 10%;
+  font: 300 1.1vmax "Roboto";
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
 }
 
 .container {
@@ -157,6 +241,7 @@
 .productCard>div {
   margin: 0.5vmax;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
@@ -175,7 +260,7 @@
 
 .productCard>span {
   margin: 0.5vmax;
-  color: tomato;
+  color: rgb(2, 46, 129);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1vmax;
 }
@@ -204,4 +289,12 @@
     margin: 0 0.5vmax;
     font: 300 1vmax "Roboto";
   }
+}
+
+.social_media {
+  margin-left: 20%;
+  width: 80%;
+  margin-right: 10%;
+  padding-bottom: 10vmax;
+  display: flex;
 }

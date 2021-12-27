@@ -1,7 +1,7 @@
 .updateOrderForm {
     margin: 5vmax 0;
     padding: 3vmax;
-    background-color: white;
+    background-image: linear-gradient(rgb(168, 253, 249), rgb(148, 168, 255));
 }
 
 .updateOrderForm>div {
