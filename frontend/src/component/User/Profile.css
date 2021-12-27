@@ -6,7 +6,7 @@
     top: 0%;
     left: 0%;
     max-width: 100%;
-    background-color: white;
+    background-image: linear-gradient(rgb(168, 253, 249), rgb(148, 168, 255));
 }
 
 .profileContainer>div {
