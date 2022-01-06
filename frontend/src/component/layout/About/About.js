@@ -1,46 +1,26 @@
 import React from "react";
 import "./aboutSection.css";
-import { Button, Typography, Avatar } from "@material-ui/core";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import InstagramIcon from "@material-ui/icons/Instagram";
+import { Typography, Avatar } from "@material-ui/core";
 const About = () => {
-    const visitInstagram = () => {
-        window.location = "https://instagram.com/mayankesh__";
-    };
     return (
         <div className="aboutSection">
             <div></div>
             <div className="aboutSectionGradient"></div>
             <div className="aboutSectionContainer">
-                <Typography component="h1">About Us</Typography>
+                <Typography component="h1">ABOUT</Typography>
 
                 <div>
                     <div>
                         <Avatar
                             style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-                            src="https://res.cloudinary.com/mayankesh/image/upload/v1640333540/avatars/nry5rzevtn8le0yyqjco.jpg"
+                            src="https://res.cloudinary.com/mayankesh/image/upload/v1640595521/avatars/drk3aytbhyvyqczwf11y.jpg"
                             alt="Founder"
                         />
-                        <Typography>Mayankesh Jha</Typography>
-                        <Button onClick={visitInstagram} color="primary">
-                            Visit Instagram
-                        </Button>
+                        <Typography>MATRIX MART</Typography>
                         <span>
-                            Idhar kya dekh rha hai jaa n apna kaam kar
+                            <br />
+                            <br /> This is an ecommerce website developed in mern stack.
                         </span>
-                    </div>
-                    <div className="aboutSectionContainer2">
-                        <Typography component="h2">Our Brands</Typography>
-                        <a
-                            href="https://www.youtube.com/"
-                            target="blank"
-                        >
-                            <YouTubeIcon className="youtubeSvgIcon" />
-                        </a>
-
-                        <a href="https://instagram.com/mayankesh__" target="blank">
-                            <InstagramIcon className="instagramSvgIcon" />
-                        </a>
                     </div>
                 </div>
             </div>

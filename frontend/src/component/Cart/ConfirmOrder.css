@@ -1,6 +1,8 @@
 .confirmOrderPage {
     height: 100vh;
     background-color: white;
+    background-image: linear-gradient(rgba(0, 255, 242, 0.116), rgba(0, 47, 255, 0.116));
+
     display: grid;
     grid-template-columns: 6fr 3fr;
 }
@@ -123,7 +125,7 @@
 }
 
 .orderSummary>button:hover {
-    background-color: rgb(192, 71, 50);
+    background-color: rgb(4, 0, 51);
 }
 
 @media screen and (max-width: 600px) {

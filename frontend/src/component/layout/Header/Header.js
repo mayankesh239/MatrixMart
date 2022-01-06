@@ -8,8 +8,7 @@ const options = {
     
     // for the documentation of overlay-navbar refer https://www.npmjs.com/package/overlay-navbar
     burgerColorHover: "white",  
-    burgerColor: "rgb(2, 46, 129)",  
-
+    burgerColor: "rgb(104, 142, 211)",  
     logo,
     logoWidth: "20vmax",
     logoHoverSize: "10px",

@@ -1,4 +1,5 @@
 .emptyCart {
+    background-image: linear-gradient(rgba(0, 255, 242, 0.116), rgba(0, 47, 255, 0.116));
     margin: auto;
     text-align: center;
     padding: 10vmax;
@@ -11,7 +12,7 @@
 
 .emptyCart>svg {
     font-size: 5vmax;
-    color: rgba(5, 59, 160, 0.822);
+    color: rgba(1, 2, 2, 0.822);
 }
 
 .emptyCart>p {
@@ -19,18 +20,19 @@
 }
 
 .emptyCart>a {
-    background-image: linear-gradient(rgb(0, 255, 242), rgb(0, 47, 255));
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 1vmax 3vmax;
     cursor: pointer;
-    font: 400 1vmax "Roboto";
+    font: 400 2vmax "Roboto";
     text-decoration: none;
+    background-color: rgba(3, 3, 71, 0.274);
 }
 
 .cartPage {
     padding: 5vmax;
-    
+    background-image: linear-gradient(rgba(0, 255, 242, 0.116), rgba(0, 47, 255, 0.116));
+
 }
 
 .cartHeader {
@@ -41,7 +43,7 @@
     color: white;
     display: grid;
     grid-template-columns: 4fr 1fr 1fr;
-    font: 300 0.7vmax "Roboto";
+    font: 300 1.2vmax "Roboto";
 }
 
 .cartHeader>p {
@@ -68,7 +70,7 @@
 .cartInput>button {
     border: none;
     background-color: rgba(0, 0, 0, 0.616);
-    padding: 0.5vmax;
+    padding: 0.9vmax;
     cursor: pointer;
     color: white;
     transition: all 0.5s;
@@ -90,7 +92,7 @@
 
 .cartSubtotal {
     display: flex;
-    padding: 0.5vmax;
+    padding: 0.8vmax;
     height: 8vmax;
     align-items: center;
     box-sizing: border-box;

@@ -10,6 +10,7 @@ import { useParams } from "react-router";
 import Pagination from "react-js-pagination";
 import Slider from "@material-ui/core/Slider";
 import Typography from "@material-ui/core/Typography";
+import Carousel from "react-material-ui-carousel";
 
 
 const categories = [
@@ -145,6 +146,29 @@ const Products = () => {
                             </div>
                         )}
 
+
+                        <h2 className="homeHeading">BEST DEALS</h2>
+
+                        <Carousel>
+                            <img
+                                className="CarouselImageSection"
+                                key="1"
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640451469/products/gt6a97ztrryqlip1fwrl.webp"}
+                                alt="Slide1"
+                            />
+                            <img
+                                className="CarouselImageSection"
+                                key="2"
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640525902/products/jpf8f67pl0ykcainfubl.jpg"}
+                                alt="Slide2"
+                            />
+                            <img
+                                className="CarouselImageSection"
+                                key="3"
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640523635/products/md0vg22oiypups5wmxl8.jpg"}
+                                alt="Slide3"
+                            />
+                        </Carousel>
                     </div>
                 </Fragment>
             )}

@@ -135,7 +135,7 @@ const Home = () => {
 
                         <h2 className="homeHeading">MATRIX MART GUARANTEES QUALITY</h2>
                         <div className="social_media">
-                            <iframe width="920" height="515" title="bhideo"
+                            <iframe width="800vw" height="500vw" title="bhideo"
                                 src="https://www.youtube.com/embed/jSZ6koFAVqY">
                             </iframe>
                         </div>
