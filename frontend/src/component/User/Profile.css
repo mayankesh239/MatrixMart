@@ -71,7 +71,7 @@
 
 .profileContainer> .div2 >div>p {
     color: rgba(0, 0, 0, 0.623);
-    font: 400 1.3vmax cursive;
+    font: 400 1.3vmax "Roboto";
     /* margin: 0.2vmax; */
 }
 
@@ -122,7 +122,7 @@
     }
 
     .profileContainer> .div2 >div>p {
-        font: 400 2vmax cursive;
+        font: 400 2vmax "Roboto";
         margin: 0.5vmax 0;
     }
 

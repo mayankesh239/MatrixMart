@@ -32,7 +32,7 @@
 
 .detailsBlock-1>p {
   color: rgba(54, 54, 54, 0.582);
-  font: 200 0.6vmax cursive;
+  font: 200 0.6vmax "Roboto";
 }
 
 .detailsBlock-2 {
@@ -193,7 +193,7 @@
 
 .reviewCardComment {
   color: rgba(0, 0, 0, 0.664);
-  font: 300 0.9vmax cursive;
+  font: 300 0.9vmax "Roboto";
 }
 
 .noReviews {
@@ -287,6 +287,6 @@
   }
 
   .reviewCardComment {
-    font: 300 3vw cursive;
+    font: 300 3vw "Roboto";
   }
 }

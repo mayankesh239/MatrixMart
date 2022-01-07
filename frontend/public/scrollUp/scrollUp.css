@@ -12,6 +12,9 @@
     padding: 15px 30px;
     border-radius: 10px;
     font-size: 18px;
+    box-shadow: -2px 4px 22px -2px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: -2px 4px 22px -2px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: -2px 4px 22px -2px rgba(0, 0, 0, 0.68);
 }
 
 #myBtn:hover {

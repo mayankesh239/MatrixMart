@@ -116,7 +116,9 @@ const Products = () => {
                                 <Slider
                                     value={ratings}
                                     onChange={(e, newRating) => {
+
                                         setRatings(newRating);
+
                                     }}
                                     aria-labelledby="continuous-slider"
                                     valueLabelDisplay="auto"

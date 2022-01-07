@@ -96,7 +96,7 @@
     height: 8vmax;
     align-items: center;
     box-sizing: border-box;
-    font: 300 1vmax cursive;
+    font: 300 1vmax "Roboto";
     justify-content: flex-end;
     color: rgba(0, 0, 0, 0.753);
 }
