@@ -25,7 +25,7 @@
   }
   
   .aboutSectionContainer>h1 {
-    font: 400 3vmax "Roboto";
+    font: 400 2vmax "Roboto";
     color: rgb(2, 46, 129);
     margin: 2vmax;
   }
@@ -46,7 +46,7 @@
   
   .aboutSectionContainer>div>div>p {
     color: rgba(0, 0, 0, 0.623);
-    font: 100 1vmax "Roboto";
+    font: 100 2vmax "Roboto";
   }
   
   .aboutSectionContainer>div>div>button {
@@ -66,12 +66,12 @@
   
   .aboutSectionContainer2>h2 {
     color: rgba(0, 0, 0, 0.623);
-    font: 100 2vmax "Roboto";
+    font: 100 5vmax "Roboto";
     margin: 2vmax;
   }
   
   .aboutSectionContainer2>a>svg {
-    font-size: 4vmax;
+    font-size: 5vmax;
   }
   
   @media screen and (max-width: 600px) {
