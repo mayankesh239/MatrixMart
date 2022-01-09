@@ -116,19 +116,19 @@ const Home = () => {
                             <img
                                 className="CarouselImageSection"
                                 key="1"
-                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640451469/products/gt6a97ztrryqlip1fwrl.webp"}
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1641485809/products/iwfsvshgoqudt8cvwjmt.jpg"}
                                 alt="Slide1"
                             />
                             <img
                                 className="CarouselImageSection"
                                 key="2"
-                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640525902/products/jpf8f67pl0ykcainfubl.jpg"}
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1641535915/products/dbpqibmvwpubr7bj5iyz.jpg"}
                                 alt="Slide2"
                             />
                             <img
                                 className="CarouselImageSection"
                                 key="3"
-                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1640523635/products/md0vg22oiypups5wmxl8.jpg"}
+                                src={"https://res.cloudinary.com/mayankesh/image/upload/v1641486196/products/mup7hhuutzzvcskn3ybr.jpg"}
                                 alt="Slide3"
                             />
                         </Carousel>
