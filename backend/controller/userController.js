@@ -88,7 +88,7 @@ exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
     //Reset password url
     const resetPasswordUrl = `${req.protocol}://${req.get(
         "host"
-    )}/api/v1/password/reset/${resetToken}`;
+    )}/password/reset/${resetToken}`;
 
     //Message to be emailed
     const message = `Your password reset token is :- \n\n ${resetPasswordUrl} \n\nIf you have not requested this email then, please ignore it.`;
@@ -98,7 +98,7 @@ exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
         //sending email
         await sendEmail({
             email: user.email,
-            subject: `Ecommerce Password Recovery`,
+            subject: `MatrixMart Password Recovery`,
             message,
         });
 
