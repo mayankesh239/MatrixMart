@@ -6,12 +6,12 @@ const footer = () => {
     return (
         <footer id="footer">
             <div className="leftFooter">
-                <p>IDHAR KYA DEKH RHA JAKAR SHOPPING KAR</p>
+                <p>Your ultimate shopping destination.</p>
                 <br/>
                 <p>Download the App for Android and IOS mobile phone</p>
                 <img src={playStore} alt="playstore" />
                 <img src={appStore} alt="Appstore" />
-                <p>Ruko Zara Sabar Karo Yeh Bhi Banayengai</p>
+                <p>Everything you need, delivered to your doorstep.</p>
             </div>
 
             <div className="midFooter">
