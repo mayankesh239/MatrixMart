@@ -13,7 +13,7 @@ WEB DEVELOPMENT (MERN STACK)
 <br/>
 <br/>
 ## IDEA
-We strived to create a full fletched e-commerce web application that enables a user to have a full fletched online shopping experience.Now you a get access to a fully functional e-commerce website that allows user                       
+We strived to create a full fletched e-commerce web application that enables a user to have a full fletched online shopping experience.Now you can get access to a fully functional e-commerce website that allows user                       
 to do all the primary necessary commodities  for an e-commerce website. In order to  achieve it we have to understand the cocnepts of node js,express js,restful api,redux implementation,react js,html ,css, javascript.We went through online documenatation from various sources and refer many repositories as well as youtube channels.
 
 ### ACHIEVEMENTS
