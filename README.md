@@ -54,9 +54,3 @@ The techs used in this are:
 ## HOW TO RUN:
 Link: https://matrix-mart.herokuapp.com/
 
-
-<!-- CONTACT -->
-## CONTACT
-[![Linkedin: Mayankesh Jha](https://img.shields.io/badge/-Mayankesh-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mayankesh-jha-15446b206/)](https://www.linkedin.com/in/mayankesh-jha-15446b206/)
----
-
