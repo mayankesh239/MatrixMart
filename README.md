@@ -58,8 +58,5 @@ Link: https://matrix-mart.herokuapp.com/
 <!-- CONTACT -->
 ## CONTACT
 [![Linkedin: Mayankesh Jha](https://img.shields.io/badge/-Mayankesh-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mayankesh-jha-15446b206/)](https://www.linkedin.com/in/mayankesh-jha-15446b206/)
-[![Linkedin: Ayush Sharma](https://img.shields.io/badge/-Ayush-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mayankesh-jha-15446b206/)](https://www.linkedin.com/in/ayush-sharma-b37929223/)
-[![Linkedin: Samridhi Sinha](https://img.shields.io/badge/-Samridhi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mayankesh-jha-15446b206/)](https://www.linkedin.com/in/samridhi-sinha-8542041ba/)
-<br/>
 ---
 
